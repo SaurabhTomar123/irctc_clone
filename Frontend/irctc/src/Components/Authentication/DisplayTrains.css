@@ -1,0 +1,117 @@
+.train-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .train-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(33.333% - 32px); /* 3 items per row with gap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .train-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .train-header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .train-timings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .timing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .station {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .to {
+    margin: 0 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .availability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .status {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .book-now {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .book-now:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .train-item {
+      width: calc(50% - 32px); /* 2 items per row with gap */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .train-item {
+      width: calc(100% - 32px); /* 1 item per row with gap */
+    }
+  }
+  
+  .header{
+    color: black;
+    background-color: white;
+  }
+  .train-list{
+    list-style: none;
+    margin: 5px;
+    
+  }

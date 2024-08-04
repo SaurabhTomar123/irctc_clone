@@ -1,0 +1,114 @@
+.train-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 800px;
+    width: fit-content;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px
+
+  }
+  
+  .train-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .train-header h2 {
+    margin: 0;
+  }
+  
+  .runs-on {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .train-schedule {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .train-timings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .timing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .station {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .to {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+  
+  .availability {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .book-now {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-now:hover {
+    background-color: #e68900;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
